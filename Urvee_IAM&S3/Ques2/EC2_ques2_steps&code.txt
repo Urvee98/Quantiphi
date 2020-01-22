@@ -1,0 +1,29 @@
+Ques2
+
+1)	Create a bucket urvee
+2)	Make it public
+3)	Add a folder named index.html to the bucket
+4)	In Properties, go to Static Website Hosting
+5)	Click on use this object to host the website
+6)	Entire index.html file name in the index text box.
+7)	Create another public bucket urvee1 with load.html file in it
+8)	This load.html is referred in index.html
+9)	Host a static website similarly from urvee1
+10)	In urvee1, go to Permissions
+11)	Click on CORS configuration and entire the following code:
+12)	Now, open the website we created in urvee
+13)	We’ll now be able to see the content of load.html 
+After clicking on the hyperlink, we get the output
+
+Index.html code:
+<html>
+<h1>Hello World
+I am object from urvee
+<A HREF ="http://urvee1.s3-website-us-east-1.amazonaws.com/load.html"> this is bucket 2</A>
+</html>
+
+Load.html code:
+<html>
+<h3> I am object from urvee1
+</html>
+
