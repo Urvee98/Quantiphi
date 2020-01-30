@@ -1,0 +1,6 @@
+1. Create an instance in EC2
+2. Add http access to the security group
+3. SSH into the instance
+4. Download Docker
+5. Create files app.py, requirements.txt and Dockerfile
+6. Run the Dockerfile
